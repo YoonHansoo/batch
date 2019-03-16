@@ -33,8 +33,7 @@
 	</bean>
 	
 	<bean id="yogultItemProcessor" class="kr.or.ddit.yogult.batch.YogultItemProcessor"
-			scope = "step"
-	/>
+			scope = "step"/>
 	
 	<bean id ="yogultItemWriter" class="kr.or.ddit.yogult.batch.CustomMyBatisBatchItemWriter">
 		<property name="sqlSessionFactory" ref="sqlSessionFactory"/>
